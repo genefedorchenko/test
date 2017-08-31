@@ -1,0 +1,80 @@
+.adm-container {
+    background-color: #F4F4F4;
+}
+
+.adm-title {
+    color: lightslategray;
+}
+
+.adm-table {
+	table-layout: fixed;
+}
+
+.adm-action-btn {
+    border: 0;
+    height: 33px;
+    width: 33px;
+    border-radius: 5px;
+    outline: none!important;
+}
+
+.adm-action-btn span {
+    font-size: 12px;
+}
+
+.adm-add-btn {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 3px 4px rgba(0, 0, 0, 0.1);
+    outline: none!important;
+}
+
+.adm-add-btn span {
+    font-size: 24px;
+}
+
+.adm-add-btn:active {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .4);
+}
+
+.adm-cell {
+    white-space: nowrap;
+    width: auto;
+}
+
+.adm-input {
+	height: 24px;
+}
+
+.adm-blue {
+    color: #5BC0DE;
+}
+
+.adm-blue-bg {
+    background-color: #5BC0DE;
+}
+
+.adm-red {
+    color: #D9534F;
+}
+
+.adm-red-bg {
+    background-color: #D9534F;
+}
+
+.adm-green {
+    color: #5F9E3F;
+}
+
+.adm-green-bg {
+    background-color: #5F9E3F;
+}
+
+.adm-white {
+    color: white;
+}
+
+.adm-white-bg {
+    background-color: white;
+}
