@@ -7,7 +7,7 @@
 }
 
 .adm-table {
-	table-layout: fixed;
+    table-layout: fixed;
 }
 
 .adm-action-btn {
@@ -15,7 +15,11 @@
     height: 33px;
     width: 33px;
     border-radius: 5px;
-    outline: none!important;
+}
+
+.adm-action-btn:active {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .4);
+    background-color: black;
 }
 
 .adm-action-btn span {
@@ -35,16 +39,21 @@
 }
 
 .adm-add-btn:active {
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 0 3px #000DDD;
+}
+
+.adm-dialog-content {
+    display: block;
+    padding: 1em;
+}
+
+.adm-input {
+    width: 100%;
 }
 
 .adm-cell {
     white-space: nowrap;
     width: auto;
-}
-
-.adm-input {
-	height: 24px;
 }
 
 .adm-blue {
